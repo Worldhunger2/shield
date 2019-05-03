@@ -1,0 +1,330 @@
+
+body{
+font-family: Montserrat;
+/*background-color:#CFCFCF;*/
+
+
+
+}	
+
+
+
+
+.jumbotron{
+margin-bottom: 0;}
+
+#three{
+	width: 50%;
+}
+
+#three .container{
+	margin-top: 30px;
+}
+#line{
+	line-height: 2rem;
+}
+
+#
+
+#two{
+	font-family: Montserrat;
+	background: white;
+}
+
+.container-fluid{
+	padding: 0px;
+	text-align: center;
+}
+
+
+
+.navbar{
+	text-align: center;
+}
+
+
+#image1{
+	width: 100%;
+	height: auto;
+}
+
+
+#f{
+	text-align: center;
+	margin: 40px auto;
+}
+
+.four{
+width: 19%;
+height: auto;
+}
+
+#im1{
+	width:100%;
+}
+
+
+
+
+#image{
+	max-width:200px;
+	height: 200px;
+	border-radius: 50%;
+	border:0px;
+}
+
+
+#in{
+	margin-left: 30%;
+	/*margin-bottom: 70px;*/
+}
+
+/*#in {
+	margin-bottom: 700px;
+}*/
+
+.navbar-brand{
+	font-family: Bangers;
+	font-size: 3rem;
+	letter-spacing: 0.2rem;
+	color: white;
+
+}
+
+
+
+#two .jumbotron{
+	margin-top: 45px;
+	padding-bottom: 20px;
+	background:white;
+	/*background-color:#CFCFCF;*/
+}
+
+.navbar-nav .nav-link{
+	font-size: 1.8rem;
+	color: white;
+
+}
+
+#three #line{
+	font-family: sans-serif;
+}
+.done{
+	background: blue;
+}
+
+
+#yash{
+
+	padding-top: 0px;
+	padding-bottom: 0px;
+    text-align: center;
+    background-color: #009F47  ;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.dropbtn {
+  background-color: #009F47  ;
+  color:white;
+  
+  padding: 16px;
+  font-size: 1.3rem;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+#three #border{
+	border-bottom: 2px solid rgba(0,0,0,.1);
+	width:50%;
+	padding-bottom: 7px;
+	
+}
+
+#nav1 h1{
+	margin-top: 10%;
+
+}
+
+#nav1 img{
+	width:550px;
+	height: 412px;
+	margin-top: 4%;
+
+}
+
+
+#nav1 p{
+	margin-top:5%;
+}
+
+#navbar1 #logo{
+	display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+
+#nav1 .circle_container
+{
+	width : 200px;
+	height : 200px;
+	margin : 0;
+	padding : 0;
+/*	border : 1px solid red; */
+}
+
+/* Circle Main draws the actual circle */
+#nav1 .circle_main
+{
+	width : 100%;
+	height : 100%;
+	border-radius : 50%;
+	border : 2px solid black;	/* can alter thickness and colour of circle on this line */
+	margin-left:200px;
+	padding : 0;
+}
+
+/* Circle Text Container - constrains text area to within the circle */
+#nav1 .circle_text_container
+{
+	/* area constraints */
+	width : 70%;
+	height : 70%;
+	max-width : 70%;
+	max-height : 70%;
+	margin-left: 0;
+	padding : 0;
+
+	/* some position nudging to center the text area */
+	position : relative;
+	left : 15%;
+	top : 15%;
+	
+	/* preserve 3d prevents blurring sometimes caused by the text centering in the next class */
+	transform-style : preserve-3d;
+	
+	/*border : 1px solid green;*/
+}
+
+/* Circle Text - the appearance of the text within the circle plus vertical centering */
+#nav1 .circle_text
+{
+	/* change font/size/etc here */
+	font: 20px "Tahoma", Arial, Serif;	
+	text-align : center;
+	
+	/* vertical centering technique */
+	position : relative;
+	top : 50%;
+	transform : translateY(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nav1 #circle2 .circle_container
+{
+	width : 200px;
+	height : 200px;
+	margin-left: 300px;
+	padding : 0;
+/*	border : 1px solid red; */
+}
+
+/* Circle Main draws the actual circle */
+#nav1 #circle2 .circle_main
+{
+	width : 100%;
+	height : 100%;
+	border-radius : 50%;
+	border : 2px solid black;	/* can alter thickness and colour of circle on this line */
+	margin-left:250px;
+	padding : 0;
+}
+
+/* Circle Text Container - constrains text area to within the circle */
+#nav1 #circle2 .circle_text_container
+{
+	/* area constraints */
+	width : 70%;
+	height : 70%;
+	max-width : 70%;
+	max-height : 70%;
+	margin-left: 0;
+	padding : 0;
+
+	/* some position nudging to center the text area */
+	position : relative;
+	left : 15%;
+	top : 15%;
+	
+	/* preserve 3d prevents blurring sometimes caused by the text centering in the next class */
+	transform-style : preserve-3d;
+	
+	/*border : 1px solid green;*/
+}
+
+/* Circle Text - the appearance of the text within the circle plus vertical centering */
+#nav1 #circle2 .circle_text
+{
+	/* change font/size/etc here */
+	font: 20px "Tahoma", Arial, Serif;	
+	text-align : center;
+	
+	/* vertical centering technique */
+	position : relative;
+	top : 50%;
+	transform : translateY(-50%);
+}
+
+
